@@ -6,6 +6,7 @@ export default function Main() {
     <div className='m-1'>
       <div className='m-2'>
         <h1 style={{color:"red",marginTop:"-15px"}}>Booking</h1>
+        
         <a href='#Home'>Home</a>
         <a href='#Home'>Ticket</a>
         <a href='#Home'>About</a>
@@ -15,6 +16,11 @@ export default function Main() {
         <button>Sign Up</button>
         <button>Logout</button>
       </div>
+      <div className='moving'>
+      <marquee behavior="scroll" direction="right" scrollamount="15">BOOKING TICKETS HERE !!!</marquee>
+
+      </div>
+     
     </div>
   )
 }

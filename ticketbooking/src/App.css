@@ -1,0 +1,43 @@
+.m-2{
+  display:grid;
+  grid-template-columns: 2fr  1fr  1fr  1fr  1fr  0.5fr  0.5fr  0.5fr ;
+  margin-top: 25px;
+
+}
+a:hover{
+  color: red;
+}
+body{
+  background-image: url(./../public/istockphoto-486836087-170667a.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-position-y:top;
+ 
+}
+button{
+  height: 50px;
+  margin-top: -10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+.formup{
+  width: 230px;
+  padding-left: 40%;
+  padding-top: 130px;
+  line-height: 40px;
+  color: blue;
+  backdrop-filter: blur(12px);
+  backdrop-filter: opacity(0.2);
+}
+.signupbtn{
+   margin-left: 60px;
+   margin-top: 10px;
+   background: #fff;
+   color: blue;
+  
+}
